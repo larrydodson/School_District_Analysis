@@ -3,22 +3,22 @@ UTMCC DataViz Module 4
 
 ## Contents
 
-* Purpose
-     
+* Background and Purpose
+* **Deliverables** 
+     1. Replace ninth-grade reading and math scores
+     2. School District Analysis
+     3. Written Summary 
+* Results
+* Summary 
 
-
-* Deliverables 
-      1. Replace ninth-grade reading and math scores
-      2. School District Analysis
-      3. Written Summary 
-
+.
 ---
 
 ## Results 
 
-* Del-1: use loc funct/method, and for Thomas HS replace math adn reading scores w/ NaNs. 
+### Del-1: use loc funct/method, and for Thomas HS replace math and reading scores w/ NaNs. 
 
-* Del-2: recreate the following metrics:
+### Schools and Students analysis metrics:
    - The district summary. How is the overall summary affected?
    - The school summary. How is the school summary affected?
    - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
@@ -33,9 +33,12 @@ UTMCC DataViz Module 4
         - Scores by school size
         - Scores by school type
 
+
+
 Figure-3 School District Summary ![PyCitySch_SchDistrictSum.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_SchDistrictSum.png)
 
 
+Figure-4 Schools Summary ![PyCitySch_SchoolSum.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_SchoolSum.png)
 
 
 
