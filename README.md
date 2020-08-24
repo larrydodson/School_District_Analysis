@@ -26,23 +26,21 @@ Note-1: During the work on the analysis, Maria communicated that the board notif
 
 ## Results 
    ### Replacing Thomas High School (THS), 9th-Grade Data
-The math and reading scores were replaced with NaN using the .loc method. Please see Figture-1 to show a confirmation of this replacement. Also used to confirm the full replacement with NaNs were methods using .count() and insull().sum(). 
+The math and reading scores were replaced with NaN using the .loc method. Please see Figture-1 to see a confirmation of this replacement, with a the head/tail view of the table. Also used to confirm the full replacements with NaNs were methods using .count() and insull().sum(). 
    
-   Figure-1 ![PyCitySch_NaN.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_NaN.png)
+   **Figure-1** ![PyCitySch_NaN.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_NaN.png)
    
    
-Also requested was to confirm the combination of the two csv files data, by creating a new Data Frame and using the Pandas library. Please see Figure-2 for the head/tail of the combined DataFrame school_data_complete_df. 
+Also requested was to confirm the combination of the two csv files data, by creating a new data frame and using the Pandas library. Please see Figure-2 for a partial-view of the combined DataFrame: school_data_complete_df. 
    
-   Figure-2   ![PyCitySch_CombinedData.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_CombinedData.png)
+   **Figure-2**   ![PyCitySch_CombinedData.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_CombinedData.png)
 
 
+.
 
    ### Schools and Students analysis metrics:
         
-        - The top 5 and bottom 5 performing schools, based on the overall passing rate
-        - The average math score for each grade level from each school
-        - The average reading score for each grade level from each school
-        - The scores by school spending per student, by school size, and by school type
+The following information and tables are a description of the requested results of the analysis. 
 
 
   **Figure-3 School District Summary** ![PyCitySch_SchDistrictSum.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_SchDistrictSum.png)
@@ -52,26 +50,29 @@ Also requested was to confirm the combination of the two csv files data, by crea
    **Figure-4 Schools Summary**    .     ![PyCitySch_SchoolSum.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_SchoolSum.png)
 
 
-**Note-2**: The overall school district was effected by the change of the removal THS-9th Grade. THS's scores generally improved by removing the 9th Grade, and as a result the scores of the other scores were reduced, but was a small effect. 
+**Note-2**: The overall school district was effected by the change of the removal THS-9th Grade scores. THS's scores itself were generally improved by removing while using only scores from the 10th, 11th and 12th Grades, and as a result the scores of the other schools were slightly reduced. 
 
-
-
-**Figure-5 Schools Performance**  ![PyCitySch_PerformanceFives.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_PerformanceFives.png)
 
 In Figure-5, the Top Five and the Bottom Five Schools are shown, as a measure based on overall passing percentage of each school's students. 
 
+**Figure-5 Schools Performance**  ![PyCitySch_PerformanceFives.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_PerformanceFives.png)
+
+
 **Note-3**: As a result of removing the THS 9th Grade scores, THS moved up to second in performance overall with a 90.6% rating, from a much lower position at 65.5%.  
 
+
+In Figure-6, the average scores for Math and Reading per school are shown, with the schools in alphabetical order. 
 
 **Figure-6 Scores per Grade per School**  ![PyCitySch_ScoresGradeLvl.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_ScoresGradeLvl.png)
 
 In Figure-6, the average scores for Math and Reading per school are shown, with the schools in alphabetical order. 
 
 
+In Figure-7, the spending by each school, based on the school's budget, is compared with student scores for math, reading and overall. This is shown by spending per student, by school size, and by school type. 
 
 **Figure-7 Student Scores compared with School Spending**  ![Resources/PyCitySch_Spending.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_Spending.png)
 
-In Figure-7, the spending by each school, based on the school's budget, is compared with student scores for math, reading and overall. This is shown by spending per student, by school size, and by school type. 
+
 
 .
 
