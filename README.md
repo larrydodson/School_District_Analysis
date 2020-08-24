@@ -22,16 +22,19 @@ UTMCC DataViz Module 4
 
 
 ## Results 
+   ### Replacing Thomas High School (THS), 9th-Grade Data
+    The math and reading scores were replaced with NaN using the .loc method. Please see Figture-1 to show a confirmation of this replacement. Also used to confirm the full replacemlent with Nans were methods using .count() and insull().sum(). 
+   
+   Figure-1 ![PyCitySch_NaN.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_NaN.png)
+   
+   
+   Also requested was to confirm the combination of the two csv files data, by creating a new Data Frame and using the Pandas library. Please see Figure-2 for the head/tail of the combined DataFrame school_data_complete_df. 
+   
+   Figure-2   ![PyCitySch_CombinedData.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_CombinedData.png)
 
-     ### Del-1: use loc funct/method, and for Thomas HS replace math and reading scores w/ NaNs. 
-     
-          Figure-1 ![PyCitySch_NaN.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_NaN.png)
-          
-          
-          Figure-2   ![PyCitySch_CombinedData.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_CombinedData.png)
 
 
-     ### Schools and Students analysis metrics:
+   ### Schools and Students analysis metrics:
         - The district summary. How is the overall summary affected?
         - The school summary. How is the school summary affected?
         - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
@@ -76,7 +79,7 @@ Figure-7  ![Resources/PyCitySch_Spending.png](https://github.com/larrydodson/Sch
 
 ---
 
-## Summary: 
+## Summary 
 
    Four major changes in the updated school district analysis (after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs).
    1. a
@@ -85,9 +88,7 @@ Figure-7  ![Resources/PyCitySch_Spending.png](https://github.com/larrydodson/Sch
    4. d
       
 
+
 .
-
---- 
-
 
 .end 
