@@ -80,12 +80,19 @@ In Figure-7, the spending by each school, based on the school's budget, is compa
 
 ## Summary 
 
-Four major changes in the updated school district analysis (after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs).
+Major changes in the updated school district analysis (after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs).
 
-   1. Math and reading scores by grade.  
-   2. Scores by school spending.  
-   3. Scores by school size.  
-   4. Scores by school type.  
+The Thomas High School (THS) 9th Grade was 461 students. The removal effected all the analysis results, but some areas more than others. 
+
+   * Math and Reading Scores by grade. 
+    The removal of the THS 9th Grade scores did not effect by school and by grade results by a significant amount. The impact was only 461 students removed from a total of 39,170 students in the city district.  
+   * Scores by class grade 
+   The class grades were effected by a larger amount, due to a somewhat higher degree than the overall district scores. 
+   * Scores by school spending.  
+   In the area of school spending, THS is in the upper range of per student spending, and after the change at the highest level of $638 per student. 
+   * Scores by school size.  
+   
+   * Scores by school type.  
       
 
 
