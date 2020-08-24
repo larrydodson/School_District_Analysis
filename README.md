@@ -12,7 +12,7 @@ UTMCC DataViz Module 4
 ## Background and Purpose
 In this report we present the results and summary for an analysis on local city high schools, as was requested by Maria. Maria is the data scientist for the city school district, and she has provided data on fifteen schools within the district, having a combined total of 39,170 students. The data is within two separate csv files, and includes student test scores for math and reading, student grade levels, the type of school with the number of students, and each school's budget in US dollars. 
     
-**Purpose:** Maria is looking to provide summary information to the school board and administration for decision making for the coming school sessions, and to know the performance of each school using various metrics. The results as shown below and in attached files will aid in decision-making insights and intelligence on budgets and priorities for the best targeted outcomes by the board and administrators.
+**Purpose:** Maria is looking to provide summary information to the school board and administration for decision making for the coming school sessions, and to know the performance of each school using various metrics. The results as shown below, and in the GitHub file PyCitySchools_Challenge.ipynb, will aid in decision-making insights and intelligence on budgets and priorities for the best targeted outcomes by the board and administrators.
     
 Note-1: During the work on the analysis, Maria communicated that the board notified her of evidence of academic dishonesty specific to the math and reading scores of the Thomas High School ninth-grade. She asked that these scores be removed from the analysis, replaced with NaNs, and to keep the rest of the data and analysis in place. In the Summary below, the changes to the results as was a result of this action is described. 
 
@@ -80,17 +80,14 @@ In Figure-7, the spending by each school, based on the school's budget, is compa
 
 ## Summary 
 
-   Four major changes in the updated school district analysis (after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs).
-   1. a
-   2. b
-   3. c
-   4. d
+Four major changes in the updated school district analysis (after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs).
+
+   1. Math and reading scores by grade.  
+   2. Scores by school spending.  
+   3. Scores by school size.  
+   4. Scores by school type.  
       
-How does replacing the ninth-grade scores affect the following: How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-             - Math and reading scores by grade
-             - Scores by school spending
-             - Scores by school size
-             - Scores by school type
+
 
 .
 
