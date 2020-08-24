@@ -10,28 +10,28 @@ UTMCC DataViz Module 4
 ---
 
 ## Background and Purpose
-In this report we describe and present the results and summary for an analysis on local city high schools, as was requested by Maria. Maria is the data scientist for the city school district, and she has provided data on fifteen schools within the district, having a combined total of 39,170 students, that is within two separate csv files. The data includes test scores for math and reading, student grade levels, the type of school with number of students and budget in US dollars. 
+In this report we present the results and summary for an analysis on local city high schools, as was requested by Maria. Maria is the data scientist for the city school district, and she has provided data on fifteen schools within the district, having a combined total of 39,170 students. The data is within two separate csv files, and includes student test scores for math and reading, student grade levels, the type of school with the number of students, and each school's budget in US dollars. 
     
-**Purpose:** Maria is looking to provide summary information to the school board and administration for decision making for the coming school sessions, and to know the performance of each school using various metrics. The results as shown below and in attached files will aid in decision-making insights and intelligence for the best targeted outcomes by the board and administrators. Budgets and priorities.
+**Purpose:** Maria is looking to provide summary information to the school board and administration for decision making for the coming school sessions, and to know the performance of each school using various metrics. The results as shown below and in attached files will aid in decision-making insights and intelligence on budgets and priorities for the best targeted outcomes by the board and administrators.
     
-Note: During the work on the analysis, Maria communicated that the board notified her of evidence of academic dishonest specific to the math and reading scores of the Thomas High School ninth-grade. She asked that these scores be removed from the analysis, replaced with NaNs, and to keep the rest of the data and analysis in place. In the Summary below, the changes to the results as was a result of this action is described. 
+Note: During the work on the analysis, Maria communicated that the board notified her of evidence of academic dishonesty specific to the math and reading scores of the Thomas High School ninth-grade. She asked that these scores be removed from the analysis, replaced with NaNs, and to keep the rest of the data and analysis in place. In the Summary below, the changes to the results as was a result of this action is described. 
 
-  * Deliverables
-     1. Replace ninth-grade reading and math scores
-     2. School District Analysis
-     3. Written Summary 
+ * Deliverables
+  1. Replace ninth-grade reading and math scores
+  2. School District Analysis
+  3. Written Summary 
 
 
 ---
 
 ## Results 
    ### Replacing Thomas High School (THS), 9th-Grade Data
-    The math and reading scores were replaced with NaN using the .loc method. Please see Figture-1 to show a confirmation of this replacement. Also used to confirm the full replacemlent with Nans were methods using .count() and insull().sum(). 
+The math and reading scores were replaced with NaN using the .loc method. Please see Figture-1 to show a confirmation of this replacement. Also used to confirm the full replacemlent with Nans were methods using .count() and insull().sum(). 
    
    Figure-1 ![PyCitySch_NaN.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_NaN.png)
    
    
-   Also requested was to confirm the combination of the two csv files data, by creating a new Data Frame and using the Pandas library. Please see Figure-2 for the head/tail of the combined DataFrame school_data_complete_df. 
+Also requested was to confirm the combination of the two csv files data, by creating a new Data Frame and using the Pandas library. Please see Figure-2 for the head/tail of the combined DataFrame school_data_complete_df. 
    
    Figure-2   ![PyCitySch_CombinedData.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_CombinedData.png)
 
