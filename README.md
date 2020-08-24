@@ -2,43 +2,64 @@
 UTMCC DataViz Module 4
 
 ## Contents
+     * Background and Purpose
+     * Deliverables
+          1. Replace ninth-grade reading and math scores
+          2. School District Analysis
+          3. Written Summary 
+     * Results
+     * Summary 
 
-* Background and Purpose
-* **Deliverables** 
-     1. Replace ninth-grade reading and math scores
-     2. School District Analysis
-     3. Written Summary 
-* Results
-* Summary 
-
-.
 ---
 
 ## Results 
 
-### Del-1: use loc funct/method, and for Thomas HS replace math and reading scores w/ NaNs. 
+     ### Del-1: use loc funct/method, and for Thomas HS replace math and reading scores w/ NaNs. 
+     
+          Figure-1 ![PyCitySch_NaN.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_NaN.png)
+          
+          
+          Figure-2   ![PyCitySch_CombinedData.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_CombinedData.png)
 
-### Schools and Students analysis metrics:
-   - The district summary. How is the overall summary affected?
-   - The school summary. How is the school summary affected?
-   - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-   - The top 5 and bottom 5 performing schools, based on the overall passing rate
-   - The average math score for each grade level from each school
-   - The average reading score for each grade level from each school
-   - The scores by school spending per student, by school size, and by school type
-   
-        - How does replacing the ninth-grade scores affect the following:
-        - Math and reading scores by grade
-        - Scores by school spending
-        - Scores by school size
-        - Scores by school type
+
+     ### Schools and Students analysis metrics:
+        - The district summary. How is the overall summary affected?
+        - The school summary. How is the school summary affected?
+        - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+        - The top 5 and bottom 5 performing schools, based on the overall passing rate
+        - The average math score for each grade level from each school
+        - The average reading score for each grade level from each school
+        - The scores by school spending per student, by school size, and by school type
+
+             - How does replacing the ninth-grade scores affect the following:
+             - Math and reading scores by grade
+             - Scores by school spending
+             - Scores by school size
+             - Scores by school type
 
 
 
 Figure-3 School District Summary ![PyCitySch_SchDistrictSum.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_SchDistrictSum.png)
 
 
+
 Figure-4 Schools Summary ![PyCitySch_SchoolSum.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_SchoolSum.png)
+
+
+
+
+
+
+Figure-5  ![PyCitySch_PerformanceFives.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_PerformanceFives.png)
+
+
+
+Figure-6  ![PyCitySch_ScoresGradeLvl.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_ScoresGradeLvl.png)
+
+
+
+
+Figure-7  ![Resources/PyCitySch_Spending.png](https://github.com/larrydodson/School_District_Analysis/blob/master/Resources/PyCitySch_Spending.png)
 
 
 
